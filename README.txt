@@ -24,5 +24,6 @@ data: descrição
 
 26/02/2021: 
             *Início do projeto.
+	    *Menu finalizado.
             
 
