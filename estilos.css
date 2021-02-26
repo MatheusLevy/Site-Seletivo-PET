@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* border-box para incluir o padding e border na altura e largura*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh; /*vh para usarmos medidas relativas a viewport*/
+    background-color: #292E33;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#logo-text{
+    font-family: 'DotGothic16', sans-serif;
+    text-shadow: 3px 3px black;
+}
+.logo a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 19px;
+    display: flex;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around; 
+    width: 40%;     /*Definir um width para que o tenha espaço para poder ficar space-around*/
+    
+}
+
+.nav-links a.link:hover{
+    color: rgb(146, 194, 19);
+    transition: all 0.3s ease;
+}
+
+
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.line-menu div{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+}
+
+.line-menu{
+    display: none;
+}
+
+.button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 2px;
+    background: rgb(146, 194, 19);
+    color: white;
+}
+
+@media screen and (max-width:1024px){  /*Definindo um breakpoint para refazerem o espaço dos links*/
+    .nav-links{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){  /*Definindo um breakpoint para sumir o menu*/
+    body{
+        overflow: hidden; /*Esconder o menu mobile fora da tela*/
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        top:8vh;
+        height: 92vh; /*relativo a viewport*/
+        background-color: #292E33;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform:translateX(100%); /*Puxar o meno de fora da tela pela direita*/
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .line-menu{
+        display: block; /*Mostrar o menu 'icone'*/
+        cursor: pointer;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+/* Animação para os links do menu mobile aparecer quando houver o slide do menu mobile*/
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.bar .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.bar .line2{
+    opacity: 0;
+}
+
+.bar .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
