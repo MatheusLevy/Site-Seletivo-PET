@@ -30,3 +30,10 @@ data: descrição
 	    *Responsividade do menu finalizado.
 	    *Responsividade da seção Slider finalizado.
 	    *Responsividade da seção Sobre finalizado.
+
+27/02/2021:
+        *Seção Localização finalizado;
+        *Data de inicio  finalizado;
+        *cronograma finalizado;
+        *Resposividade da Localização finalizado;
+        *Responsividade do Cronograma finalizado;

@@ -1,0 +1,40 @@
+.main__timeline{
+    background-color: #1a1a1a;
+    padding: 1rem 0;
+}
+
+.main__title{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem auto;
+}
+.grid__timeline__topics{
+    color: white;
+    font-size: 2rem;
+}
+
+.grid__content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    justify-content: center;
+} 
+
+.grid__timeline__content{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px){
+    .grid__timeline__content{
+        font-size: 1rem;
+    }
+
+    .grid__timeline__topics{
+        font-size: 1.2rem;
+    }
+}

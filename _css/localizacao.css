@@ -1,0 +1,55 @@
+.main__map__container{
+    text-align: center;
+   
+}
+
+.main__map__card{
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: white;
+
+}
+
+/* Versão para mobile ou telas pequenas*/
+
+@media screen and (max-width: 1024px){
+    .main__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .main__map__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__map__card{
+        height: 400px;
+        width:  400px;
+    }
+    
+    .main__content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1{
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+    .main__content h2{
+        font-size: 3rem;
+    }
+}
+

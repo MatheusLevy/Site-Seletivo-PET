@@ -1,0 +1,48 @@
+.datas{
+    
+    background-image: url(/assets/gif/SliderBackground.gif);
+    background-attachment: fixed;
+    padding: 10rem 0;
+}
+
+.datas h1{
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.datas h2{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.data__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.data__card{
+    margin: 10px;
+    height: 200px;
+    width: 350px;
+    border: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
