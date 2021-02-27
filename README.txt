@@ -26,4 +26,7 @@ data: descrição
             *Início do projeto.
 	    *Menu finalizado.
             *me.html finalizado.            
-
+	    *Seção Sobre o evento finalizado.
+	    *Responsividade do menu finalizado.
+	    *Responsividade da seção Slider finalizado.
+	    *Responsividade da seção Sobre finalizado.

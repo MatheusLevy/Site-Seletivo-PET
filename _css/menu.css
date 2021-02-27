@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; /* border-box para incluir o padding e border na altura e largura*/
-}
+} 
 
 nav{
     display: flex;
@@ -17,6 +17,7 @@ nav{
 #logo-text{
     font-family: 'DotGothic16', sans-serif;
     text-shadow: 3px 3px black;
+    color:white;
 }
 .logo a{
     text-decoration:none;
@@ -28,7 +29,7 @@ nav{
 .logo{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 19px;
+    font-size: 20px;
     display: flex;
 }
 
@@ -88,7 +89,7 @@ nav{
 
 @media screen and (max-width:600px){  /*Definindo um breakpoint para sumir o menu*/
     body{
-        overflow: hidden; /*Esconder o menu mobile fora da tela*/
+        overflow-x: hidden; /*Esconder o menu mobile fora da tela*/
     }
     .nav-links{
         position: absolute;

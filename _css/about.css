@@ -1,0 +1,124 @@
+.main{
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.main__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+p h1 h2{
+    font-family: 'Open Sans', sans-serif; 
+}
+.main__content{
+    color:white;
+    width: 100%;
+}
+
+.main__container h1{
+    font-size: 2rem;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    /*css gradiente linear do uiGradients.com*/
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-backgorund-clip:text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.main__content h2{
+    /*
+        VOLTAR AQUI E CUSTUMIZAR O H2 COM ALGUMA COR
+    */
+}
+.main__content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main_btn{
+    font-size:1.5rem;
+    background: rgb(146, 194, 19);
+    padding: 20px 60px;
+    border:none;
+    border-radius: 4px;
+    color:white;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.main_btn a{
+    color:white;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.main__img__container{
+    text-align: center;
+}
+
+.main__img__card{
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: white;
+    background-image: url(/assets/gif/placeholder1.gif);
+
+}
+
+/* Versão para mobile ou telas pequenas*/
+
+@media screen and (max-width: 1024px){
+    .main__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .main__img__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__img__card{
+        height: 425px;
+        width:  425px;
+    }
+    
+    .main__content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1{
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+    .main__content h2{
+        font-size: 3rem;
+    }
+}
+

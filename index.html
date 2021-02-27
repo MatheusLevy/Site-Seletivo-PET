@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hack the World</title>
-    <link rel="stylesheet" href="_css/estilos.css">
+    <link rel="stylesheet" href="_css/menu.css">
+    <link rel="stylesheet" href="_css/slider.css">
+    <link rel="stylesheet" href="_css/about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!-- nav/Header -->
-   
     <nav>
         <div class="logo">
             <a href="#"><h4 id="logo-text">hack the world</h4></a>
@@ -26,12 +28,50 @@
             <li><a class="button" href="#">Sign-up</a></li>
         </ul>
         <!-- 'icone' de menu para mobile ou telas pequenas -->
-        <div class="line-menu">
+         <div class="line-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
     </nav>
+
+    <!-- Slider/Banner do site-->
+    <div class ="slider" id="home">
+        <div class="filter">
+            <div class="slider__container">
+                <h1 class="slider__header">hack the world</h1>
+                <div id="slider__hacking">
+                    <span class="slider__code" id="code1">root@world</span>
+                    <span class="slider__code" id="code2">:</span>
+                    <span class="slider__code" id="code3">~</span>
+                    <span class="slider__code" id="code4">#</span>
+                    <span class="slider__code blink-animation" id="auto__dig">hydra</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Sobre o Evento-->
+
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img__container">
+                <div class="main__img__card"></div>
+            </div>
+            <div class="main__content">
+                <h1>O que é o Hack the World?</h1>
+                <h2>Somos um evento sobre pentest!</h2>
+                <p>Temos apresentações sobre artigos, publicações de artigos,
+                    desafios e certificados. Qualquer um pode se inscrever no
+                    formulário, enviar um artigo, participar dos desafios e fazer
+                    apresentações. Bonsoir!
+                </p>
+                <button class="main_btn"><a href="#">Saiba Mais</a></button>
+            </div>
+        </div>
+    </div>
+
     <script src="JavaScript/menu.js"></script>
 </body>
 </html>
