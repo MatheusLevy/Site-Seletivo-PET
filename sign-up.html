@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="_css/submissionpage.css">
+    <link rel="stylesheet" href="/_css/menu.css">
+</head>
+<body>
+
+        <!-- nav/Header -->
+        <nav>
+            <div class="logo">
+                <a href="/index.html"><h4 id="logo-text">hack the world</h4></a>
+            </div>
+    
+            <ul class="nav-links">
+                <li><a class="link" href="/index.html">Home</a></li>
+                <li><a class="link" href="#">Cronograma</a></li>
+                <li><a class="link" href="#">Contato</a></li>
+                <li><a class="link" href="#">FAQ</a></li>
+                <li><a class="button" href="#">Inscreva-se</a></li>
+            </ul>
+            <!-- 'icone' de menu para mobile ou telas pequenas -->
+             <div class="line-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+    <main>
+        <form action="" id="subcription_input">
+            <h1>Inscrição</h1>
+            <label class="text_input" for="name">
+                <span>Nome Completo:</span>
+                <input type="text" id="name" name="name">
+            </label>
+            <label class="text_input" for="article_title">
+                <span>Telefone:</span>
+                <input type="text" id="telefone" name="telefone">
+            </label>
+
+            <label class="text_input" for="email">
+                <span>Email:</span>
+                <input type="text" id="email" name="email">
+            </label>
+            <span>Eventos que deseja participar:</span>
+            <div>
+                <input type="checkbox" name="events__CTF" id="events__CTF">
+                <label for="events__CTF">Eventos CTF</label>
+            </div>
+            <div>
+                <input type="checkbox" name="events_presentations" id="events_presentations">
+                <label for="events_presentations">Apresentação de Artigo</label>
+            </div>
+            <div>
+                <input type="checkbox" name="evets_present_article" id="evets_present_article">
+                <label for="evets_present_article">Apresentar artigo</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="evets_discussions">
+                <label for="evets_discussions">Debates</label>
+            </div>
+            <span>Desejo apresentar artigo autoral:</span>
+            <div>
+                <input type="radio" name="article_presentation_yes" id="article_presentation_yes">
+                <label for="article_presentation_yes">Sim</label>
+                <input type="radio" name="article_presentation_no" id="article_presentation_no">
+                <label for="article_presentation_no">Não</label>
+            </div>
+
+            <label class="text_input" for="article_area">
+                <span>Area do Artigo:</span>
+                <input type="text" id="article_area" name="article_area">
+            </label>
+
+            <label class="text_input" for="article_title">
+                <span>Título do Artigo:</span>
+                <input type="text" id="article_title" name="article_title">
+            </label>
+            <span>O artigo já foi publicado em algum revista?</span>
+            <div>
+                <input type="radio" name="article_publish_yes" id="article_publish_yes">
+                <label for="article_publish_yes">Sim</label>
+                <input type="radio" name="article_publish_no" id="article_publicsh_no">
+                <label for="article_publicsh_no">Não</label>
+            </div>
+            <label class="text_input" for="article_magazine">
+                <span>Se sim qual?</span>
+                <input type="text" id="article_magazine" name="article_magazine">
+            </label>
+            <input class="button" type="submit" value="Inscrever-se">
+        </form>
+    </main>
+    <script src="JavaScript/menu.js"></script>
+</body>
+</html>

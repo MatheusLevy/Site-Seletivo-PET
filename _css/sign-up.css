@@ -1,0 +1,24 @@
+.main__img__card__sign-up{
+    margin: 10px;
+    height: 458px;
+    width: 630px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/assets/gif/placeholder3.gif);   
+}
+
+.main__sign-up{
+    background-color: black;
+    padding: 5rem 0;
+}
+
+/*versão mobile ou telas pequenas*/
+@media screen and (max-width: 630px){
+    .main__img__card__sign-up{
+        width:  425px;
+        background-image: url(/assets/gif/placeholder3_resized.gif);
+        background-repeat: no-repeat;
+    }
+}

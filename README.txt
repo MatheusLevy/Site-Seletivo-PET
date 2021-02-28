@@ -23,9 +23,9 @@ Relátorio de desenvolvimento:
 data: descrição
 
 26/02/2021: 
-            *Início do projeto.
+        *Início do projeto.
 	    *Menu finalizado.
-            *me.html finalizado.            
+        *me.html finalizado.            
 	    *Seção Sobre o evento finalizado.
 	    *Responsividade do menu finalizado.
 	    *Responsividade da seção Slider finalizado.
@@ -37,3 +37,14 @@ data: descrição
         *cronograma finalizado;
         *Resposividade da Localização finalizado;
         *Responsividade do Cronograma finalizado;
+        *Seção submissão de trabalhos parcial;
+            -> Falta customização.
+        *Resposividade da Seção submissão de trabalhos feito;
+        
+28/02/2021:
+        *Seção de inscrição finalizada.
+        *Resposividade seção de inscrição finalizada.
+        *Resposividade seção de submissão de trabalhos corrigida.
+        *Página de Submissão de artigo reajustada.
+        *Formulário de inscriçao parcial.
+            -> Falta customização

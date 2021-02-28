@@ -6,11 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submissão de artigo</title>
     <link rel="stylesheet" href="_css/submissionpage.css">
+    <link rel="stylesheet" href="/_css/menu.css">
 </head>
 <body>
+    <!-- nav/Header -->
+    <nav>
+        <div class="logo">
+            <a href="/index.html"><h4 id="logo-text">hack the world</h4></a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a class="link" href="/index.html">Home</a></li>
+            <li><a class="link" href="#">Cronograma</a></li>
+            <li><a class="link" href="#">Contato</a></li>
+            <li><a class="link" href="#">FAQ</a></li>
+            <li><a class="button" href="#">Inscreva-se</a></li>
+        </ul>
+        <!-- 'icone' de menu para mobile ou telas pequenas -->
+         <div class="line-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
     <main>
-        <h1>Envio de Artigo</h1>
         <form action="" id="article_input">
+            <h1>Envio de Artigo</h1>
             <label class="text_input" for="name">
                 <span>Autor:</span>
                 <input type="text" id="name" name="name">
@@ -42,7 +64,7 @@
             </div>
 
             <label for="article_area_other_specification">
-                <span>Outro:</span>
+                <span id="other__description">Outro:</span>
                 <input type="text" id="article_area_other_specification" name="article_area_other_specification">
             </label>
             <span>Upload do artigo</span>
@@ -50,5 +72,6 @@
             <input class="button" type="submit" value="enviar">
         </form>
     </main>
+    <script src="JavaScript/menu.js"></script>
 </body>
 </html>

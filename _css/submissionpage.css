@@ -8,7 +8,6 @@
 
 body{
     background-color: #131313;
-    display: flex;
     min-height: 100vh;
 } 
 
@@ -20,10 +19,19 @@ main{
     justify-content: center;
 }
 
-main h1{
-    color: white;
+form{
+    background-color: #F5F5F5;
+}
+
+#other__description{
+    margin-left: 0.33rem;
+}
+
+form h1{
+    color: rgb(146, 194, 19);;
     font-size: 3rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 main form{
@@ -45,22 +53,31 @@ main form label span{
 }
 main form span{
     margin-top: 2rem;
-    color: white;
+    margin-left: 0.33rem;
+    color: #696969;
     font-size: 1.1rem;
 }
 main form label input{
-    width: 500px;
+    width: 100vh;
     height: 25px;
     padding: 0 0.5rem;
+    margin-left: 0.4rem;
 }
 
 input{
     margin: 0.4rem 0.4rem;
+    background-color: white;
+    border: 1px solid black;
 }
 div label{
-    color:white;
+    color:#696969;
+    
 }
 
+
+#article_area_other_specification{
+    width: 100vh;
+}
 .button{
     font-size: 2rem;
     padding: 10px 20px;
@@ -78,8 +95,15 @@ div label{
 }
 
 #article_file_upload{
-    color:white;
+    color:black;
     margin-bottom: 2rem;
+}
+
+textarea{
+    background-color: white ;
+    padding: 0 0.5rem;
+    margin-left: 0.4rem;
+    border: 1px solid black;
 }
 
 @media screen and (max-width:1024px){
