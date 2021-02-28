@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:  'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #131313;
+    display: flex;
+    min-height: 100vh;
+} 
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+main form label.text_input{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+
+}
+main form span{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
+}
+main form label input{
+    width: 500px;
+    height: 25px;
+    padding: 0 0.5rem;
+}
+
+input{
+    margin: 0.4rem 0.4rem;
+}
+div label{
+    color:white;
+}
+
+.button{
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 2px;
+    background: rgb(146, 194, 19);
+    color: white;
+}
+
+#article_description{
+    height: 100px;
+    width: 500px;
+}
+
+#article_file_upload{
+    color:white;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:1024px){
+    main form label input{
+        width: 300px;
+        height: 25px;
+        padding: 0 0.5rem;
+    }
+
+    #article_description{
+        height: 100px;
+        width: 300px;
+    }
+}

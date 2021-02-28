@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submissão de artigo</title>
+    <link rel="stylesheet" href="_css/submissionpage.css">
+</head>
+<body>
+    <main>
+        <h1>Envio de Artigo</h1>
+        <form action="" id="article_input">
+            <label class="text_input" for="name">
+                <span>Autor:</span>
+                <input type="text" id="name" name="name">
+            </label>
+            <label class="text_input" for="article_title">
+                <span>Título do Artigo:</span>
+                <input type="text" id="article_title" name="article_title">
+            </label>
+            <label class="text_input" id="text_area__hight" for="article_description">
+                <span>Descrição do artigo:</span>
+                <textarea form="article_input" id="article_description" name="article_description"  cols="40" wrap="soft"></textarea>
+            </label>
+            <span>Area de atuação:</span>
+            <div>
+                <input type="checkbox" name="article_area_development" id="article_area_development">
+                <label for="article_area_development">Desenvolvimento</label>
+            </div>
+            <div>
+                <input type="checkbox" name="article_area_research" id="article_area_research">
+                <label for="article_area_research">Pesquisa</label>
+            </div>
+            <div>
+                <input type="checkbox" name="article_area_security" id="article_area_security">
+                <label for="article_area_security">Segurança</label>
+            </div>
+            <div>
+                <input type="checkbox" name="article_area_other" id="article_area_other">
+                <label for="article_area_other">Outro</label>
+            </div>
+
+            <label for="article_area_other_specification">
+                <span>Outro:</span>
+                <input type="text" id="article_area_other_specification" name="article_area_other_specification">
+            </label>
+            <span>Upload do artigo</span>
+            <input id="article_file_upload" type="file">
+            <input class="button" type="submit" value="enviar">
+        </form>
+    </main>
+</body>
+</html>
