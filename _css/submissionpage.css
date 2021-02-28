@@ -74,10 +74,6 @@ div label{
     
 }
 
-
-#article_area_other_specification{
-    width: 100vh;
-}
 .button{
     font-size: 2rem;
     padding: 10px 20px;
@@ -108,7 +104,7 @@ textarea{
 
 @media screen and (max-width:1024px){
     main form label input{
-        width: 300px;
+        width: 380px;
         height: 25px;
         padding: 0 0.5rem;
     }
@@ -117,4 +113,5 @@ textarea{
         height: 100px;
         width: 300px;
     }
+
 }

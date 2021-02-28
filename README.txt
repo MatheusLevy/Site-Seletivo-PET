@@ -48,3 +48,7 @@ data: descrição
         *Página de Submissão de artigo reajustada.
         *Formulário de inscriçao parcial.
             -> Falta customização
+        *Seção Contato finalizado
+        *Resposividade da pagina de artigo corrigida.
+        *Erro de re-sizing do mapa na Seção de Localização corrigida.
+        

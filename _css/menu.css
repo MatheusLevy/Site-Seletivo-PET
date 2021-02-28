@@ -87,7 +87,7 @@ nav{
     }
 }
 
-@media screen and (max-width:600px){  /*Definindo um breakpoint para sumir o menu*/
+@media screen and (max-width:680px){  /*Definindo um breakpoint para sumir o menu*/
     body{
         overflow-x: hidden; /*Esconder o menu mobile fora da tela*/
     }
