@@ -51,4 +51,4 @@ data: descrição
         *Seção Contato finalizado
         *Resposividade da pagina de artigo corrigida.
         *Erro de re-sizing do mapa na Seção de Localização corrigida.
-        
+        *Seção FAQ finalizada.

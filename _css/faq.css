@@ -1,0 +1,34 @@
+
+.main__container__FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+#FAQ__title{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem auto;
+    font-size: 2rem;
+}
+
+.FAQ__ask{
+    font-size: 2rem;
+    color: rgb(146, 194, 19);;
+}
+
+.FAQ__answer{
+    font-size: 1.5rem;
+
+}
+
+.FAQ__content{
+    margin: 30px;
+}
