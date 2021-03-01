@@ -19,10 +19,7 @@ const navSlide = () =>{       /*Função anonima pra fazer o slide do menu quand
         });
         
         linemenu.classList.toggle('bar');
-
-    });
-
-    
+    });  
 }
 
 

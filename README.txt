@@ -1,4 +1,4 @@
-Site sobre um evento fictício sobre Hacking CTF.
+Site sobre um evento fictício de hackthon.
 O evento se chama "Hack the world".
 
 Os requisitos do site são:
@@ -52,3 +52,7 @@ data: descrição
         *Resposividade da pagina de artigo corrigida.
         *Erro de re-sizing do mapa na Seção de Localização corrigida.
         *Seção FAQ finalizada.
+        *Footer finalizado
+        *Responsividade do footer feito.
+        *Corrigido importação de fontes nas páginas submission.html e sign-up.html
+        *Corrigido erro em associação de radial button em sign-up.html
