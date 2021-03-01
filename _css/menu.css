@@ -5,6 +5,8 @@
 } 
 
 nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     min-height: 8vh; /*vh para usarmos medidas relativas a viewport*/

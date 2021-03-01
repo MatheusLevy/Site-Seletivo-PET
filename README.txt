@@ -56,3 +56,4 @@ data: descrição
         *Responsividade do footer feito.
         *Corrigido importação de fontes nas páginas submission.html e sign-up.html
         *Corrigido erro em associação de radial button em sign-up.html
+        *Header colocado como fixo. 

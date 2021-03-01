@@ -22,7 +22,6 @@ const navSlide = () =>{       /*Função anonima pra fazer o slide do menu quand
     });  
 }
 
-
 const app = () =>{
     navSlide();
 } 
